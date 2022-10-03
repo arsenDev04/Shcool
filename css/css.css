@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+#haeder{
+    background: rgba(36, 53, 161, 0.6);
+    padding: 20px 0;
+    backdrop-filter: blur(1px);
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+}
+.s1{
+    text-decoration: none;
+    width: 1140px;
+    margin: 0 auto;
+}
+.s3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.s4 {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    font-size: 20px;
+}
+.s4 a{
+    text-decoration: none;
+    color: white;
+}
+.s4 select{
+    border: none;
+    background: transparent;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.s4 option{
+    background: #2435A1;
+}
+#n{
+    background: url("../img/Vector.png") no-repeat bottom/cover;
+    height: 87vh;
+    padding: 50px 0;
+}
+.n1{
+    width: 1140px;
+    margin: 0 auto;
+}
+.n2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.n3 h1{
+    font-size: 39px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+.n3 p{
+    font-size: 20px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+.n4{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+.n4 h2{
+    margin-left: -40px;
+    color: white;
+}
+.fa-arrow-right{
+    color: orange;
+    margin-left: 20px;
+}
+.n5{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.n6 {
+    padding: 0 100px;
+    background: #2435A1;
+    margin-top: 200px;
+}
+#no {
+    height: 1000px;
+    padding-top: 200px;
+}
+.no2{
+    width: 1140px;
+    margin: 0 auto;
+}
+.no3{
+    width: 983px;
+    height: 0px;
+    margin-left: 80px;
+    border-radius: 10px;
+    border: 5px solid #1100D9;
+    margin-bottom: 150px;
+    background:#1100D9;
+}
+.no6 img{
+    margin-left: -50px;
+}
+.no4{
+    position: absolute;
+    width: 625px;
+    height: 438px;
+    left: 200px;
+    top: 1126px;
+    background: #FC724D;
+    z-index:-1;
+}
+.no5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.no7 h1{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.no7 p{
+    font-size: 14px;
+}
+.no8{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+}
+.no8 a{
+    text-decoration: none;
+    color: blue;
+}
+.no8 h2{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.no9{
+    margin-left: 20px;
+}
+.no10{
+    font-size: 18px;
+    padding-top: 70px;
+    line-height: 30px;
+
+}
+.no11{
+    font-size: 18px;
+    color: #1100D9;
+    padding: 150px 460px;
+}
+.no11 button{
+    font-size: 17px;
+    color: #1100D9;
+    padding: 10px 40px;
+    border-radius: 10px;
+    background: transparent;
+    border: 3px solid blue;
+    transition: .4s;
+    cursor: pointer;
+}
+.no11 button:hover{
+    background: blue;
+    color: white;
+    transform: scale(1.1);
+}
+.no13{
+    width: 100%;
+    height:100%;
+    background: rgba(0, 0, 0, 0.53);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.no14{
+    width: 1171px;
+    height: 603px;
+    overflow-y: scroll;
+    background: rgba(255, 255, 255, 0.62);
+    border-radius: 38px;
+    position: relative;
+}
+.no14 p{
+    padding: 15px 20px;
+}
+.no14 div{
+    font-size: 25px;
+    color: red;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    transition: .4s;
+    cursor: pointer;
+}
+.no14 div:hover{
+    transform: scale(1.4);
+}
+.no12{
+    display: none;
+}
+#nani{
+    width: 1140px;
+    margin: 0 auto;
+}
+.structure{
+    height: 600px;
+    padding-top: 200px;
+    width: 1140px;
+    margin: 0 auto;
+}
+.structure3 h1{
+
+    margin-bottom: 50px;
+    font-size: 25px;
+    color: black;
+}
+.structure3 div h2{
+    padding: 15px 0;
+    line-height: 40px;
+}
+.repit1{
+    height: 350px;
+    padding-top: 70px;
+    width: 1140px;
+    margin: 0 auto;
+}
+.repit3 h1{
+    padding-top: 50px;
+    font-size: 29px;
+    margin-bottom: 60px;
+}
+.repit4 p{
+    line-height: 30px;
+    font-size: 20px;
+    color: black;
+}
+.tip1{
+    height: 400px;
+    width: 1140px;
+    margin: 0 auto;
+    background: #2435A1;
+}
+.tip3 h1{
+    font-size: 25px;
+    margin-bottom: 70px;
+}
+.tip4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    height: 250px;
+}
+.tip5{
+padding: 20px 5px;
+}
+.top1 {
+    width: 1140px;
+    margin: 0 auto;
+    height: 600px;
+    padding-top: 250px;
+}
+.top3 h1{
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+.top5 {
+    display: flex;
+    align-items: center;
+    padding: 30px 30px;
+    font-size: 20px;
+}
+.top5 p{
+ margin-left: 10px;
+    line-height: 40px;
+}
+.top3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top6 div iframe{
+    border: solid 2px red;
+}
+#foot{
+    margin-top: 100px;
+    background: url("../img/tip1.png") no-repeat top center/cover;
+    width: 100%;
+    min-height: 40vh;
+
+}
+.foot1 {
+    width: 1140px;
+    margin: 0 auto;
+    height: 300px;
+    padding-top: 100px;
+}
+.foot3 div div img{
+
+}
+.foot3 div div p{
+    margin-left: 10px;
+    color: #FFFFFF;
+}
+.foot5 {
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+    font-size: 20px;
+    margin-left: 5px;
+    color: #FFFFFF;
+}
+.foot6 {
+    padding-top: 20px;
+}
+.foot3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot3 div a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.foot3 div h2{
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.foot7 {
+    font-size: 30px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    margin-top: 90px;
+}
+.foot8{
+    position: absolute;
+    width: 1170px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    margin-top: 90px;
+}
+.foot9{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.swiper-slide {
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
